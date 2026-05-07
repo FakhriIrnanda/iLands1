@@ -11,11 +11,11 @@ const C = {
 }
 
 const STATIONS = [
-  { id:'BAKO', name:'Batu Caves Slope',        location:'Ringlet' },
-  { id:'CUSV', name:'Cameron Highlands Upper',  location:'Tanah Rata' },
-  { id:'MYVA', name:'Lavender Park',            location:'Brinchang' },
-  { id:'NTUS', name:'Mossy Forest Ridge',       location:'Gunung Brinchang' },
-  { id:'SAMP', name:'RockShed Station',         location:'Simpang Pulai' },
+  { id:'BAKO', name:'iLands · Ringlet',        location:'Ringlet' },
+  { id:'CUSV', name:'iLands · Tanah Rata',  location:'Tanah Rata' },
+  { id:'MYVA', name:'iLands · Brinchang',            location:'Brinchang' },
+  { id:'NTUS', name:'iLands · Gunung Brinchang',       location:'Gunung Brinchang' },
+  { id:'SAMP', name:'iLands · Simpang Pulai',         location:'Simpang Pulai' },
 ]
 
 const SCENARIOS = [

@@ -64,7 +64,7 @@ export interface StationConfig {
 export const STATIONS: StationConfig[] = [
   {
     id          : 'BAKO',
-    name        : 'Batu Caves Slope',
+    name        : 'iLands · Ringlet',
     location    : 'Ringlet, Cameron Highlands',
     lat         : 4.4656,
     lon         : 101.3584,
@@ -77,7 +77,7 @@ export const STATIONS: StationConfig[] = [
   },
   {
     id          : 'CUSV',
-    name        : 'Cameron Highlands Upper',
+    name        : 'iLands · Tanah Rata',
     location    : 'Tanah Rata, Cameron Highlands',
     lat         : 4.4716,
     lon         : 101.3780,
@@ -90,7 +90,7 @@ export const STATIONS: StationConfig[] = [
   },
   {
     id          : 'MYVA',
-    name        : 'Lavender Park',
+    name        : 'iLands · Brinchang',
     location    : 'Brinchang, Cameron Highlands',
     lat         : 4.5200,
     lon         : 101.3900,
@@ -103,7 +103,7 @@ export const STATIONS: StationConfig[] = [
   },
   {
     id          : 'NTUS',
-    name        : 'Mossy Forest Ridge',
+    name        : 'iLands · Gunung Brinchang',
     location    : 'Gunung Brinchang, Cameron Highlands',
     lat         : 4.5010,
     lon         : 101.3820,
@@ -116,7 +116,7 @@ export const STATIONS: StationConfig[] = [
   },
   {
     id          : 'SAMP',
-    name        : 'RockShed Station',
+    name        : 'iLands · Simpang Pulai',
     location    : 'Simpang Pulai, Cameron Highlands',
     lat         : 4.4380,
     lon         : 101.3650,

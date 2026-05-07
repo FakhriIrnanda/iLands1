@@ -33,11 +33,11 @@ function riskLabel(r: string) {
 }
 
 const STATIONS = [
-  { id:'BAKO', name:'Batu Caves Slope',        location:'Ringlet' },
-  { id:'CUSV', name:'Cameron Highlands Upper',  location:'Tanah Rata' },
-  { id:'MYVA', name:'Lavender Park',            location:'Brinchang' },
-  { id:'NTUS', name:'Mossy Forest Ridge',       location:'Gunung Brinchang' },
-  { id:'SAMP', name:'RockShed Station',         location:'Simpang Pulai' },
+  { id:'BAKO', name:'iLands · Ringlet',          location:'Ringlet' },
+  { id:'CUSV', name:'iLands · Tanah Rata',        location:'Tanah Rata' },
+  { id:'MYVA', name:'iLands · Brinchang',         location:'Brinchang' },
+  { id:'NTUS', name:'iLands · Gunung Brinchang',  location:'Gunung Brinchang' },
+  { id:'SAMP', name:'iLands · Simpang Pulai',     location:'Simpang Pulai' },
 ]
 
 function PanelHeader({ label, icon }: { label: string; icon?: React.ReactNode }) {
@@ -309,7 +309,7 @@ Respond with ONLY the five fields. No markdown, no preamble.`
           return (
             <button key={s.id} onClick={()=>{ setSelectedId(s.id) }} style={{ display:'flex', alignItems:'center', gap:6, padding:'6px 12px', fontSize:9, fontWeight:700, letterSpacing:'0.06em', cursor:'pointer', fontFamily:"'IBM Plex Mono',monospace", background:isAct?C.surfaceElevated:'transparent', color:isAct?C.textPrimary:C.textSecondary, border:isAct?`1px solid ${col}`:`1px solid ${C.border}` }}>
               <span style={{ width:6, height:6, borderRadius:'50%', background:isAct?col:C.textSecondary, display:'inline-block' }}/>
-              {s.name.split(' ')[0].toUpperCase()}
+              {s.name.split('· ')[1]?.toUpperCase() ?? s.id}
             </button>
           )
         })}

@@ -62,11 +62,11 @@ interface AuditEntry {
 }
 
 const STATIONS = [
-  { id:'BAKO', name:'Batu Caves Slope'        },
-  { id:'CUSV', name:'Cameron Highlands Upper'  },
-  { id:'MYVA', name:'Lavender Park'            },
-  { id:'NTUS', name:'Mossy Forest Ridge'       },
-  { id:'SAMP', name:'RockShed Station'         },
+  { id:'BAKO', name:'iLands · Ringlet'        },
+  { id:'CUSV', name:'iLands · Tanah Rata'  },
+  { id:'MYVA', name:'iLands · Brinchang'            },
+  { id:'NTUS', name:'iLands · Gunung Brinchang'       },
+  { id:'SAMP', name:'iLands · Simpang Pulai'         },
 ]
 
 function PanelHeader({ label, icon }: { label: string; icon?: React.ReactNode }) {

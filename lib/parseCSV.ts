@@ -48,11 +48,11 @@ export interface StationMeta {
 
 // Cameron Highlands GNSS monitoring sites — real coordinates, active landslide zone
 export const STATION_COORDS: Record<string, { lat: number; lon: number; name: string; location: string }> = {
-  BAKO: { lat: 4.4109,  lon: 101.3855, name: 'GNSS Site 1', location: 'Lavender Park, Cameron Highlands' },
-  CUSV: { lat: 4.4447,  lon: 101.3826, name: 'GNSS Site 2', location: 'Ringlet, Cameron Highlands' },
-  MYVA: { lat: 4.4180,  lon: 101.3868, name: 'GNSS Site 3', location: 'Ringlet, Cameron Highlands' },
-  NTUS: { lat: 4.4663,  lon: 101.3860, name: 'GNSS Site 4', location: 'Tanah Rata, Cameron Highlands' },
-  SAMP: { lat: 4.5989,  lon: 101.3466, name: 'GNSS Site 5', location: 'RockShed, Cameron Highlands' },
+  BAKO: { lat: 4.3167, lon: 101.3833, name: 'iLands · Ringlet',          location: 'Ringlet, Cameron Highlands' },
+  CUSV: { lat: 4.4667, lon: 101.3833, name: 'iLands · Tanah Rata',        location: 'Tanah Rata, Cameron Highlands' },
+  MYVA: { lat: 4.5000, lon: 101.3833, name: 'iLands · Brinchang',         location: 'Brinchang, Cameron Highlands' },
+  NTUS: { lat: 4.5200, lon: 101.3900, name: 'iLands · Gunung Brinchang',  location: 'Gunung Brinchang, Cameron Highlands' },
+  SAMP: { lat: 4.5800, lon: 101.3600, name: 'iLands · Simpang Pulai',     location: 'Simpang Pulai, Cameron Highlands' },
 }
 
 function parseNum(v: string): number | null {
